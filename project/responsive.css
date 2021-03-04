@@ -1,0 +1,52 @@
+@media (max-width: 1000px) {
+  .hum-menu {
+    display: none;
+  }
+
+  .hum-menu2 {
+    display: none;
+  }
+
+  .container header .header-container .menu-btn_wrapper {
+    display: none;
+  }
+  .container header .header-container .bar .hum-icon {
+    visibility: visible;
+  }
+  .container header .top-nav {
+    margin-left: 0px;
+  }
+  .container .main {
+    margin-left: 0;
+  }
+  .container .main .main-container .phone_card-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 100%);
+    justify-content: center;
+    align-content: center;
+  }
+  .container .main .main-container .phone_card-container {
+    border-bottom: 1px solid #d1cece;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .container .main .main-container .phone_card-container img {
+    width: 30px;
+    height: auto;
+  }
+  .container .main .main-container .phone_card-container .phone {
+    width: 40%;
+  }
+  .container .main .main-container .slides-wrapper {
+    margin-top: -40px;
+  }
+  .container .main .main-container .slides-wrapper .slides-container .slide {
+    height: 300px;
+  }
+  .container .main .main-container .plan_list-wrapper {
+    justify-content: start;
+  }
+  .container .footer p {
+    margin-left: 0;
+  }
+}/*# sourceMappingURL=responsive.css.map */

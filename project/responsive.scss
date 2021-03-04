@@ -1,0 +1,78 @@
+@media(max-width: 1000px){
+
+    .hum-menu{
+        display: none;
+    }
+    .hum-menu2{
+        display: none;
+    }
+
+    .container{
+        header{
+            .header-container{
+                .menu-btn_wrapper{
+                    display: none;
+                }
+
+                .bar{
+                    .hum-icon{
+                        visibility: visible;
+                    }
+                }
+            }
+
+            .top-nav{
+                 margin-left: 0px;
+            }
+        }
+    
+        .main{
+            margin-left: 0;
+            .main-container{
+                .phone_card-wrapper{
+                    display: grid;
+                    grid-template-columns: repeat(auto-fit, 100%);
+                    justify-content: center;
+                    align-content: center;
+                }
+
+                .phone_card-container{
+                    border-bottom: 1px solid rgb(209, 206, 206);
+                    width: 100%;
+                    margin-bottom: 10px;         
+        
+                    img{
+                        width: 30px;
+                        height: auto;
+                    }
+                
+                    .phone{
+                        width: 40%;
+                    }
+                }
+
+                .slides-wrapper{
+                    margin-top: -40px;
+
+                    .slides-container{
+                        .slide{
+                                height: 300px
+                        }
+                    }
+                }
+
+                .plan_list-wrapper{
+                    justify-content: start; 
+                }
+
+            }
+        }
+        
+        .footer{
+            p{
+                margin-left: 0;
+            }
+        }
+    }
+}
+
